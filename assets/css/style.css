@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Unlock:100,200,300,400,500,600,700|Charmonman:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.navbar-brand {
+    font-family: "Unlock";
+}
+
+
+.navbar-nav li {
+    font-family: "Charmonman", sans-serif;
+    
+}
+
+
+
+
+
+
+  body {
+  background-image: url("../images/glass.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  margin: 0;
+  }
