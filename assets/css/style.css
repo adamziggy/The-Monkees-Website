@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Unlock:100,200,300,400,500,600,700|Charmonman:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
+body {
+    background-image: url("../images/logo-note.jpg")
+}
 .navbar {
     margin-top: 10px;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
+    
+    
 }
 
 .navbar-brand {
     font-family: "Unlock";
+    font-weight: 200;
 }
 
 
