@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Unlock:100,200,300,400,500,600,700|Charmonman:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Unlock:100,200,300,400,500,600,700|Charmonman:100,200,300,400,500,600,700|Cabin:100,200,300,400,500,600,700');
 
 
 body {
     background-image: url("../images/logo-note.jpg")
 }
+
+/*---------------------------------------Navbar*/
 .navbar {
     margin-top: 10px;
     margin-left: 20px;
@@ -21,15 +23,43 @@ body {
 .navbar-nav li {
     font-family: "Charmonman", sans-serif;
     
+ /*---------------------------------------header*/
     
 }
 
-.img-rounded {
-    margin-left: 5px;
-    margin-right: 5px;
+img {
+ height: 340px;
 }
 
+/*---------------------------------------section*/ 
 
+.band-info {
+    font-family: "Unlock", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.members {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.instrument {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.img-circle {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 
 
