@@ -90,6 +90,35 @@ img {
   
 }
 
+/*---------------------------------------video-section*/ 
+
+.video {
+font-family: "Unlock", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.music-video {
+margin-bottom: 50px;
+}
+
+.video-title {
+    font-family: "Unlock", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.more-to-come {
+    font-family: "Charmonman", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 35px;
+    font-style: italic;
+}
+
 
 /*---------------------------------------footer*/ 
 
@@ -161,3 +190,4 @@ margin-right: 5px;
     color: #dcdcdc;
     text-decoration: none;
 }
+
