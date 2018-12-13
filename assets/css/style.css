@@ -35,7 +35,7 @@ img {
  height: 320px;
 }
 
-/*---------------------------------------section*/ 
+/*---------------------------------------index-section*/ 
 
 .band-info {
     font-family: "Unlock", sans-serif;
@@ -65,12 +65,39 @@ img {
   padding-bottom: 35px;
 }
 
+/*---------------------------------------music-section*/ 
+
+.music {
+    font-family: "Unlock", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+}
+
+.mp3 {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.songs {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  margin-top: 25px;
+  margin-bottom: 55px;
+  
+}
+
 
 /*---------------------------------------footer*/ 
 
 footer {
     height: 80px;
     background-color:  #efefef;
+    margin:10px 15px 10px 15px;
+    border-radius: 20px;
     
     
 }
@@ -88,12 +115,14 @@ footer {
   color: #ffffff;
   
   
+  
 }
 
 .fa-facebook {
   background: #3B5998;
  border-radius: 50%;
  margin-right: 5px;
+ 
 }
 .fa-twitter {
   background: #55ACEE;
