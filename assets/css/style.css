@@ -101,7 +101,7 @@ img {
 
 .music {
     font-family: "Unlock", sans-serif;
-    color: #ffffff;
+    color: #ff00ff;
     text-align: center;
     margin-top: 50px;
     font-size: 45px;
@@ -175,11 +175,20 @@ margin-bottom: 50px;
 }
 
 
+/*---------------------------------------photo-section*/ 
+
+.thumbnail {
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+
+
+
 /*---------------------------------------footer*/ 
 
 footer {
     height: 75px;
-    background-color:  #efefef;
+    background-color: #fdf5e6 ;
     margin:10px 20px 10px 20px;
     border-radius: 20px;
     color: #00FF00;
@@ -207,7 +216,7 @@ footer {
   background: #3B5998;
  border-radius: 50%;
  margin-right: 5px;
- margin-bottom: 15px;
+ 
  
  
 }
