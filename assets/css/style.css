@@ -2,15 +2,19 @@
 
 
 body {
-    background-image: url("../images/logo-note.jpg")
+    background-image: url("../images/guitar.jpg");
+    background-attachment: fixed;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;              
     
 }
 
 /*---------------------------------------Navbar*/
 .navbar {
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
     
     
@@ -19,6 +23,7 @@ body {
 .navbar-brand {
     font-family: "Unlock";
     font-style: italic;
+     
 }
 
 
@@ -26,13 +31,17 @@ body {
     font-family: "Unlock", sans-serif;
     font-size: small;
     font-style: italic;
-    
+
+   
  /*---------------------------------------header*/
     
 }
 
 img {
- height: 320px;
+ height: 300px;
+ margin-left: 15px;
+ margin-right: 15px;
+ 
 }
 
 /*---------------------------------------index-section*/ 
@@ -45,11 +54,34 @@ img {
     font-size: 45px;
 }
 
-.members {
+.member1 {
     font-family: "unlock", sans-serif;
     text-align: center;
     text-decoration: underline;
+    color: #DC143C;
 }
+
+.member2 {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #000080;
+}
+
+.member3 {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+.member4 {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E90FF;
+}
+
 
 .instrument {
     font-family: "unlock", sans-serif;
@@ -75,28 +107,49 @@ img {
     font-size: 45px;
 }
 
-.mp3 {
+.mp3a {
     font-family: "unlock", sans-serif;
     text-align: center;
     text-decoration: underline;
+    color: #DC143C;
+}
+
+.mp3b {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #000080;
+}
+
+.mp3c {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #FF00FF;
+}
+
+.mp3d {
+    font-family: "unlock", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: #1E90FF;
 }
 
 .songs {
   display: block;
-  margin-left: auto;
-  margin-right: auto;  
   margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 55px;
-  
 }
-
+  
 /*---------------------------------------video-section*/ 
 
 .video {
 font-family: "Unlock", sans-serif;
-    color: #ffffff;
+    color: #55ACEE;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 45px;
 }
 
@@ -107,8 +160,9 @@ margin-bottom: 50px;
 .video-title {
     font-family: "Unlock", sans-serif;
     text-align: center;
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: #ff8c00;
 }
 .more-to-come {
     font-family: "Charmonman", sans-serif;
@@ -117,17 +171,18 @@ margin-bottom: 50px;
     text-align: center;
     margin-top: 35px;
     font-style: italic;
+    
 }
 
 
 /*---------------------------------------footer*/ 
 
 footer {
-    height: 80px;
+    height: 75px;
     background-color:  #efefef;
-    margin:10px 15px 10px 15px;
+    margin:10px 20px 10px 20px;
     border-radius: 20px;
-    
+    color: #00FF00;
     
 }
 
@@ -145,12 +200,15 @@ footer {
   
   
   
+  
 }
 
 .fa-facebook {
   background: #3B5998;
  border-radius: 50%;
  margin-right: 5px;
+ margin-bottom: 15px;
+ 
  
 }
 .fa-twitter {
@@ -170,18 +228,6 @@ footer {
   background: #125688;
 border-radius: 50%;
 margin-right: 5px;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  border-radius: 50%;
-  margin-right: 5px;
-}
-
-.fa-google {
-  background: #dd4b39;
-  border-radius: 50%;
-  margin-right: 5px;
 }
 
 
